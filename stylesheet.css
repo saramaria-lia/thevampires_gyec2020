@@ -9,10 +9,11 @@
 	}
 
 		body{
-	background-image: url(background_circles.jpeg);
+	background-image: url(background_lines.jpg);
 			background-attachment:fixed;
-			background-repeat: repeat-y repeat-x;
+			background-repeat: no-repeat;
 			background-position: center;
+			background-size: cover; /* scales the picture to fill desktop screen
 			
 		}
 
@@ -74,6 +75,14 @@ h2 {
 	border: 5px #f9f9f9f9 outset;
 }
 
+.bubble {
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+	padding: 8px;
+	border: 5px #f9f9f9f9 outset;
+	margin: 10px auto;
+}
+
 .download {
   display: block;
   margin-left: auto;
@@ -103,7 +112,6 @@ h2 {
 
 #info {
 	font-size:18px;
-	background-color: rgba(255,255,255,0.7);
 	
 }
 .topnav {
