@@ -9,11 +9,12 @@
 	}
 
 		body{
-	background-image: url(pattern2.jpg);
+	background-image: url(background_lines.jpg);
 			background-attachment:fixed;
-			background-repeat: repeat-y repeat-x;
+			background-repeat: no-repeat;
 			background-position: center;
-			
+			background-size: cover; /* scales the picture to fill desktop screen */
+			font-family: "Garamond", sans-serif;
 		}
 
 /*table {
@@ -114,6 +115,7 @@ h2 {
 	margin-top: 10px;
 	margin-right:15px;
 	margin-bottom: 15px;
+	border: 2px solid black;
 }
 
 .download2 {
@@ -126,8 +128,7 @@ h2 {
 }
 
 #info {
-	font-size:18px;
-	background-color: rgba(255,255,255,0.7);
+	/*font-size:18px; */
 	
 }
 .topnav {
