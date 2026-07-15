@@ -15,14 +15,12 @@
 			background-position: center;
 			background-size: cover; /* scales the picture to fill desktop screen */
 			font-family: "Garamond", sans-serif;
+			margin: 0;
 		}
 
-/*table {
-	width:100%;
-	background-color: rgba(220,220,220,0.5);
-	
-
-} */
+table.content-table { 
+	width: 100%;
+}
 
 h1 {
 	
