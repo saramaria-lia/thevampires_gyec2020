@@ -221,4 +221,29 @@ h2 {
 	margin-bottom: 4px;
 }
 
+body.faq-page {
+	scrollbar-width: none; 
+}
+
+body.faq-page:hover {
+	scrollbar-width: thin; 
+}
+
+body.faq-page::-webkit-scrollbar {
+	width: 0px; 
+	transition: width 0.2s ease;
+}
+
+body.faq-page:hover::-webkit-scrollbar {
+	width: 8px; 
+}
+
+body.faq-page::-webkit-scrollbar-thumb {
+	background-color: #333;
+	border-radius: 4px;
+}
+
+body.faq-page::-webkit-scrollbar-track {
+	background: transparent;
+}
 
